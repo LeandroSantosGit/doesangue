@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F9F9;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+header, .form, main {
+    margin: 0 auto 50px;
+    width: 90%;
+    max-width: 500px;
+}
+
+header h1, main h2 {
+    margin-bottom: 50px;
+}
+
+header button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #FF4F4F;
+    color: #FFFFFFDD;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 150px;
+    margin: 50px 0;
+}
+
+header p {
+    font-size: 14px;
+}
+
+section.form h2 {
+    text-align: 50px;
+    color: #FFFFFFDD;
+    font-size: 20px;
+}
+
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+    background-color: #FF4F4F;
+    padding: 16px 64px;
+    border-radius: 4px;
+}
+
+form input, form button {
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px #FFFFFF88 solid;
+}
+
+form button {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input {
+    background-color: transparent;
+}
+
+form input::placeholder {
+    color: #FFFFFFDD;
+}
+
+main h2 span {
+    color: #FF4F4F;
+}
+
+main .donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main .blood {
+    color:  #FF4F4F;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+main .blood::before {
+    content: "";
+    background-color: #FF4F4F30;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+
+    /* Efeito gota */
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+}
+
+main .donor p {
+    margin-top: 24px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+footer {
+    margin-top: auto;
+    padding-bottom: 16px;
+    border: 1px solid #EEE;
+}
+
+/* Função com Javascript */
+section.form {
+    transition: all 500ms;
+}
+
+section.form.hide {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+}
