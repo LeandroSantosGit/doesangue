@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="#-Projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;nbsp;
+  <a href="#-Projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-instalação"> :gear: Instalação</a>&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença"> :memo: Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-mailbox_with_mail"> :mailbox_with_mail: Entrar em Contato</a>
@@ -30,7 +30,7 @@
 
 ## 💻 Projeto
 
-O Doe Sangue foi desenvolvido para servir como um banco de doadores de doadores, facilitando encontrar e registrar doadores de sangue.
+O Doe Sangue foi desenvolvido para servir como um banco de doadores, facilitando encontrar e registrar doadores de sangue.
 
 ## :gear: Instalação
 
